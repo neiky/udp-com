@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="de.neiky.udp.UdpTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-03-26T21:21:46" hostname="neiky-UX303LNB" time="0.145">
+  <properties/>
+  <testcase name="test" classname="de.neiky.udp.UdpTest" time="0.145"/>
+  <system-out><![CDATA[Socket closed
+]]></system-out>
+  <system-err><![CDATA[ERROR StatusLogger No log4j2 configuration file found. Using default configuration: logging only errors to the console.
+]]></system-err>
+</testsuite>
