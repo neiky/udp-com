@@ -251,6 +251,19 @@ public class UdpSender implements AutoCloseable {
 	}
 
 	/**
+	 * Enable/disable SO_BROADCAST.
+	 * 
+	 * @param on
+	 *            whether or not to have broadcast turned on.
+	 * @return this UdpSender.
+	 */
+	protected UdpSender setBroadcast(boolean on) {
+		this.broadcast = on;
+
+		return this;
+	}
+
+	/**
 	 * Gets the local address to which the socket is bound. If there is a
 	 * security manager, its checkConnect method is first called with the host
 	 * address and -1 as its arguments to see if the operation is allowed.
